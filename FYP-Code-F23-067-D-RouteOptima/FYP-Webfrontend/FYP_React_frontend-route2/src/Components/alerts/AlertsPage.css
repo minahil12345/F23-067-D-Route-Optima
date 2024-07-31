@@ -1,0 +1,32 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.alert-card-animation {
+  animation: slideInFromTop 0.5s forwards; /* Animation duration 0.5s */
+  width: 96%;
+  justify-content: center;
+}
+
+.alerts-page-container {
+  background-color: #FFFFFF;
+    /* padding: 20px; */
+}
+
+.alerts-title {
+  font-Family: 'DM Mono', sans-serif;
+  text-align: left;
+  color: '#686561';  
+  }
+
+.alerts-card {
+  background-color: #CBCBCB;
+  width: 100%;
+  height:100%;
+  padding: 20px;
+  justify-content: center;
+}

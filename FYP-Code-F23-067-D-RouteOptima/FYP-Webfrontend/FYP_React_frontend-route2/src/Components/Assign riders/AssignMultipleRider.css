@@ -1,0 +1,45 @@
+    @keyframes slideInFromTop {
+        0% {
+        transform: translateY(-100%);
+        }
+        100% {
+        transform: translateY(0);
+        }
+    }
+  
+    .assign-card-animation {
+    animation: slideInFromTop 0.5s forwards; 
+    background-color: #FFFFFF;
+    }
+
+    .assign-container {
+        background-color: #FFFFFF;
+        /* padding: 20px; */
+    }
+
+    .assign-title {
+        font-Family: 'DM Mono', sans-serif;
+        text-align: left;
+        color: '#686561';      
+    }
+
+    .assign-ant-card {
+    border: 1px solid black;
+    }
+
+
+    /* Custom styles for dropdown */
+   .custom-dropdown {
+    width: 190px; /* Adjust the width as needed */
+  }
+  
+  /* Custom styles for options */
+  .custom-option {
+    font-family: 'DM Mono', sans-serif;
+  }
+  
+  /* Hover effect for dropdown */
+  .custom-dropdown:hover .ant-select-selector {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  

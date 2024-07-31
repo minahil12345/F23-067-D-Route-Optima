@@ -1,0 +1,82 @@
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+  
+.register-card {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* animation: slideInFromTop 0.5s forwards;  */
+  font-Family: 'Inter', sans-serif;
+  color: '#686561';
+  font-style: bold;
+  font-size: 16px;
+}
+
+
+.register-page-container {
+  background-color: #FFFFFF;
+  /* padding: 20px; */
+  }
+  
+  .register-container {
+    padding: 0px;
+  }
+
+  .register-title {
+    font-Family: 'Inter', sans-serif;
+  text-align: left;
+  color: '#686561';  
+  }
+/*   
+  .image-container {
+    width: 100%;
+    padding: 0px;
+  } */
+  
+  .image-container {
+    width: 100%; /* Ensure image takes full width */
+    height: 100%;
+    /* display: flex; */
+    justify-content: flex-start;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .registration-form {
+    justify-content: center;
+  }
+
+  .register-image {
+    max-width: 100%;
+    height: 100%;
+  }
+
+
+  .file-input {
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    /* You can adjust the shadow effect as needed */
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .file-input:hover,
+  .file-input:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover or when active */
+  }
+  
+  .file-input::-webkit-file-upload-button {
+    background-color: #FF7D00; /* Background color for "Choose a File" button */
+    /* You may need to adjust other styles for this element */
+  }
+  

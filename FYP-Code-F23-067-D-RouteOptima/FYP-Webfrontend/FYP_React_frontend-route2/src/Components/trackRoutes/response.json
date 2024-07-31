@@ -1,0 +1,73 @@
+[
+    {
+      "id": "46ACIEbnlM4N8dGez77b",
+      "data": {
+        "date": "3/28/2024",
+        "actualStartTime": "null",
+        "distanceCovered": 0,
+        "totalParcels": 9,
+        "riderInfo": {
+          "password": "306098fa01257f8e4809cbdfca258d8c22c7fb12937cc2616ef06aa20fd8008e",
+          "address": "House 1, Street 1, Islamabad",
+          "phone": "03157889543",
+          "name": "Ahmad Khan",
+          "cnic": "3820198765432",
+          "email": "ahmad@gmail.com"
+        },
+        "tripRef": {
+          "_firestore": {
+            "projectId": "route-optima"
+          },
+          "_path": {
+            "segments": [
+              "trip",
+              "mnPsVo2jyH8NgiEbwNXN"
+            ]
+          },
+          "_converter": {}
+        },
+        "actualEndTime": "null",
+        "startTime": "09:01 AM",
+        "endTime": "02:32 PM",
+        "unableToDeliver": 0,
+        "totalDistance": 71,
+        "status": "assigned",
+        "alertsGenerated": 2,
+        "parcelsRemaining": 8,
+        "parcelsDelivered": 1,
+        "parcels": [
+          {
+            "service_time": 3,
+            "due_time": "09:20 AM",
+            "nItems": 1,
+            "arrival_time": "09:17 AM",
+            "actualStartTime": {
+              "_seconds": 1711672414,
+              "_nanoseconds": 259000000
+            },
+            "receiver": {
+              "address": "E-9 Islamabad",
+              "phone": "3174537242",
+              "name": "Danial",
+              "cnic": "3489198652354",
+              "email": "example@gmail.com"
+            },
+            "receiverName": "ab",
+            "ready_time": "08:28 AM",
+            "weight": 2,
+            "deliveryProofLink": "https://firebasestorage.googleapis.com/v0/b/route-optima.appspot.com/o/signatures%2F2024-3-29_1711672514195.png?alt=media&token=0f0cee66-1267-4aa7-849b-2f6692f65f8d",
+            "parcelId": "23aa6116d6b290bddf5b43596d73031ccf1580ed4f94ec654836f2cfbe830a49",
+            "actualEndTime": {
+              "_seconds": 1711672610,
+              "_nanoseconds": 597000000
+            },
+            "location": {
+              "long": 73.0139616,
+              "lat": 33.719469
+            },
+            "status": "delivered"
+          }
+        ]
+      }
+    }
+  ]

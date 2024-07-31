@@ -1,0 +1,39 @@
+.optimize-container {
+  border-right: 1px solid #ccc; /* Vertical border */
+}
+
+.optimize-container .row {
+  margin-right: 0; /* Remove margin-right to prevent horizontal overflow */
+}
+
+.optimize-container .col-md-6 {
+  padding: 20px;
+}
+
+.optimize-container .form-container {
+  max-width: 400px; /* Adjust max-width to fit your content */
+  margin: auto; /* Center the form */
+}
+
+.optimize-container .form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.optimize-container .sample-csv-link {
+  margin-left: 10px;
+}
+
+.optimize-container .form-control {
+  margin-bottom: 10px;
+}
+
+.optimize-container .text-muted {
+  font-size: 12px;
+}
+
+.optimize-container .image-container {
+  width: 100%;
+}
+
+/* Add any additional styling as needed */
