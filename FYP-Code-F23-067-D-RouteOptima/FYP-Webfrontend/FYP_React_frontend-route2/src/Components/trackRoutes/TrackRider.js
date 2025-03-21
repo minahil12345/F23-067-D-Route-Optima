@@ -37,7 +37,7 @@ const TrackRider = ({ location }) => {
   const  riderInfo  = rider.assignment.data.riderInfo;
   useEffect(() => {
     mapboxgl.accessToken =
-      "pk.eyJ1IjoibWFydGluYWhpbGwiLCJhIjoiY2xzZzZsMDBuMWVrOTJscGN6ZHQ0cjN0ZiJ9.oID5NvKkd-ab3WdXXnhvjQ";
+      "your_mapbox_token_here";
   
     const initializeMap = () => {
       try {
