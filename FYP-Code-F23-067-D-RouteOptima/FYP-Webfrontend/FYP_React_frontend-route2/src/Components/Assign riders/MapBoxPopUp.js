@@ -19,7 +19,7 @@ const MapPopup = ({ onClose,selectedSubroute }) => {
   const [noOfRiders, setNoOfRiders]=useState('0');
   console.log("Subroute Passed to MapBox: ", selectedSubroute);
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGluYWhpbGwiLCJhIjoiY2xzZzZsMDBuMWVrOTJscGN6ZHQ0cjN0ZiJ9.oID5NvKkd-ab3WdXXnhvjQ'; 
+    mapboxgl.accessToken = 'your_mapbox_token_here'; 
     // console.log("Subroute Id: ", selectedSubrouteId);
     const initializeMap = async () => {
       try {
