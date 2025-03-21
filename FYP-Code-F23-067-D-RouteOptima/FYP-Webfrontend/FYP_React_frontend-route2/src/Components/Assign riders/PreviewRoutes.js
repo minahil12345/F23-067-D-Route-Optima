@@ -11,7 +11,7 @@ const PreviewRoutes = ({ subroutes, routeToShow,setRouteToShow }) => {
   const markers = useRef([]);
 
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFydGluYWhpbGwiLCJhIjoiY2xzZzZsMDBuMWVrOTJscGN6ZHQ0cjN0ZiJ9.oID5NvKkd-ab3WdXXnhvjQ';
+    mapboxgl.accessToken = 'your_mapbox_token_here';
 
     const initializeMap = () => {
       try {
